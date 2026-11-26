@@ -21,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={robotoSans.variable}>
+    <html lang="en" className={robotoSans.variable}>
+      <body>
         <CampusPassProvider>{children}</CampusPassProvider>
       </body>
     </html>
